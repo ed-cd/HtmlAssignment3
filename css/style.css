@@ -1,0 +1,167 @@
+body {
+	width: 970px;
+	font-family: sans-serif;
+}
+
+#headerLeftPaddingDiv {
+	height: 100%;
+	width: 55%;
+	display: inline-block;
+}
+#headerRightPaddingDiv {
+	height: 100%;
+	width: 5%;
+	display: inline-block;
+}
+
+#headerRightContent {
+	height: 100%;
+	width: 39%;
+	display: inline-block;
+}
+
+#headerNav {
+	color: white;
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+}
+
+#headerNav a {
+	color: #F7D349;
+}
+#headerSearch {
+	display: inline;
+	color: white;
+	display: inline-block;
+	width: 100%;
+	text-align: right;
+}
+
+div.main {
+	padding: 1px;
+}
+div.bodyBox {
+	margin-left: 25px;
+	margin-right: 0px;
+	margin-top: 25px;
+	display: block;
+}
+.head {
+	background-image: url("../img/header.png");
+	background-size: cover;
+	height: 80px;
+}
+
+.leftNavigation {
+	display: inline-block;
+	background-color: #EEEEEE;
+	width: 20%;
+	padding: 10px;
+	border-width: 1px;
+	border-color: #D4D4D4;
+	border-style: solid;
+}
+span.navHome {
+	display: block;
+}
+ul.navigationLinks {
+	display: block;
+	padding-left: 0px;
+	list-style-position: inside;
+	margin-top: 2px;
+}
+
+ul.navigationLinks ul {
+	list-style: circle;
+}
+
+ul.navigationLinks ul li {
+	margin-bottom: 4px;
+}
+
+.rightContent {
+	display: inline-block;
+	width: 70%;
+	vertical-align: top;
+	margin-left: 20px;
+}
+
+a.emphasisedLink {
+	font-weight: bold;
+}
+
+a {
+	color: #980100;
+}
+li {
+	font-weight: 500;
+}
+
+ul.rightContentParagraphs li {
+	margin-bottom: 25px;
+}
+
+.footer {
+	display: inline-block;
+	border-radius: 15px;
+	background-color: #DDDDDD;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	padding: 20px;
+	width: 94%;
+}
+
+.leftNavigation li:before {
+	content: ">> ";
+	color: #980100;
+}
+
+.leftNavigation li {
+	list-style: none;
+}
+
+.leftNavigation li a {
+	display: inline-block;
+	width: 80%;
+	padding-top: 10px;
+}
+
+#topMenu {
+	background: linear-gradient(#F7F7F7,#DFDFDF);
+	margin: 0px;
+	height: 30px;
+	border-top-width: 1px;
+	border-top-color: #650000;
+	border-top-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #B4B4B4;
+	border-bottom-style: solid;
+}
+
+#topMenu li {
+	display: inline;
+	font-size: 110%;
+	color: #666666;
+	vertical-align: bottom;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+#topMenu ul {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+h1 {
+	font-size: 140%;
+	color: #980100;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 110%;
+	color: #980100;
+	margin: 0px;
+}
