@@ -3,54 +3,55 @@ body {
 	font-family: sans-serif;
 }
 
+img {
+	display:inline-block;
+}
+
 #headerLeftPaddingDiv {
 	height: 100%;
 	width: 55%;
 	display: inline-block;
+	background-image: url("../screen4-images/logo.png");
+	background-size: cover;
 }
-#headerRightPaddingDiv {
-	height: 100%;
-	width: 5%;
-	display: inline-block;
+div .head {
+	height: 68px;
+	background: linear-gradient(#E8E8E8,#FFFFFF);
+	margin: 0px;
 }
 
 #headerRightContent {
+	text-align: right;
+	vertical-align: middle;
+	display: inline-block;
 	height: 100%;
-	width: 39%;
-	display: inline-block;
+	width: 60%;
+	font-size: 150%;
+	font-weight: bold;
 }
-
-#headerNav {
-	color: white;
+.head img {
 	display: inline-block;
-	width: 100%;
-	text-align: right;
-}
-
-#headerNav a {
-	color: #F7D349;
-}
-#headerSearch {
-	display: inline;
-	color: white;
-	display: inline-block;
-	width: 100%;
-	text-align: right;
 }
 
 div.main {
 	padding: 1px;
 }
 div.bodyBox {
-	margin-left: 25px;
-	margin-right: 0px;
-	margin-top: 25px;
+	padding:25px 25px;
+	background: black;
 	display: block;
 }
-.head {
-	background-image: url("../img/header.png");
-	background-size: cover;
-	height: 80px;
+#whiteBox {
+	display:inline-block;
+	width:200px;
+	background: white;
+	margin-left: 50px;
+}
+
+#premisesPic{
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
 }
 
 .leftNavigation {
@@ -80,11 +81,14 @@ ul.navigationLinks ul li {
 	margin-bottom: 4px;
 }
 
-.rightContent {
+.infoBox {
 	display: inline-block;
-	width: 70%;
+	width: 50%;
 	vertical-align: top;
 	margin-left: 20px;
+	border-width: 1px;
+	border-color: #222222;
+	border-radius: 1px;
 }
 
 a.emphasisedLink {
@@ -130,28 +134,50 @@ ul.rightContentParagraphs li {
 }
 
 #topMenu {
-	background: linear-gradient(#F7F7F7,#DFDFDF);
 	margin: 0px;
-	height: 30px;
+	height: 50px;
+	width: 100%;
+	display: inline-block;
 	border-top-width: 1px;
-	border-top-color: #650000;
+	border-top-color: #999999;
 	border-top-style: solid;
-	border-bottom-width: 1px;
-	border-bottom-color: #B4B4B4;
-	border-bottom-style: solid;
+	background: black;
 }
 
-#topMenu li {
-	display: inline;
+#topMenu ul {
+	margin: 0px;
+	width: 100%;
+	padding: 0px;
+	height: 25px;
+	display: inline-block;
+	background: linear-gradient(#F4F7F8,#D8DFE4,#F4F4F4);
+	}
+
+#topMenu li{
+	height: 25px;
+	padding-left: 12px;
+	padding-right: 13px;
+	vertical-align: middle;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
 	font-size: 110%;
 	color: #666666;
 	vertical-align: bottom;
-	margin-left: 2px;
-	margin-right: 2px;
+	border-right-color: #CCCCCC;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-left-color: white;
+	border-left-style: solid;
+	border-left-width: 1px;
+	background: linear-gradient(#F4F7F8,#D8DFE4,#F4F4F4);
+}	
+#topMenuLeftPaddingDiv {
+	width: 40px;
 }
-#topMenu ul {
-	margin-bottom: 5px;
-	margin-top: 5px;
+#unknownPaddingdiv {
+	height: 25px;
+	background: #F4F4F4;
 }
 
 h1 {
